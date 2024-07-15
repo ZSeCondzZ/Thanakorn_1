@@ -1,0 +1,29 @@
+.Eins,td{
+    border:2px solid black;
+    text-align: left;
+    height: 30px;
+    width: 350px;
+    color:black;
+}
+
+.Zwei,td{
+    border:2px solid black;
+    text-align: center;
+    height: 30px;
+    width: 750px;
+    color:black;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.table-container{
+    background-color:white;
+    display: flex; 
+    padding: 30px;
+    border-radius: 15px;
+    gap: 70px
+}
