@@ -1,13 +1,13 @@
 document.getElementById("FormZZ").addEventListener("submit", function(event){
-    event .preventDefault();
+    event.preventDefault();
    
-    let formdata = new formdata(this);
-    let result = ("Name") +
-    formdata.get("Name")+"<br>"+"Email :" +
-    formdata.get("Email")+"<br>"+"age :" +
-    formdata.get("age")+"<br>"+"gender :" +
-    formdata.get("gender")+"<br>"+" comants:" +
-    formdata.get("comants");
-    document.getElementById("result").rnneHTML = "<h1> my data <h1> + reuslt"; 
+    let formdata = new FormData(this);
+    let result = ("Name : ") +
+    formdata.get("name")+"<br>"+"Email : " +
+    formdata.get("email")+"<br>"+"Age : " +
+    formdata.get("age")+"<br>"+"Gender : " +
+    formdata.get("gender")+"<br>"+"Comments: " +
+    formdata.get("comments");
+    document.getElementById("result").innerHTML = "<h1> my data <h1> "+ result;
 
 })
