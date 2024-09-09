@@ -53,7 +53,7 @@ class Calculator {
             case "-":
                 computation = previous - current;
                 break;
-            case "X":
+            case "×":
                 computation = previous * current;
                 break;
             case "÷":
