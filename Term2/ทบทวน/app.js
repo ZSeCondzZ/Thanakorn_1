@@ -75,3 +75,27 @@
 //score.push('tt')
 //score.pop()
 //console.log(score[ตำแหน่ง])
+
+//------------------------------------------------------------------------------------------------------------------------
+
+//let grade = 90 ;
+//let grade2 = 70 ;
+//let studentGrade = ''
+
+//function calculater_grad (score){
+//    if(score >= 80){
+//        studentGrade = "A"
+//    }
+//    else if (score >= 70){
+        studentGrade = "B"
+//    }
+//    else if (score >= 60){
+//        studentGrade = "C"
+//    }
+//    else{
+//        studentGrade = "FAILURE!!!"
+//    }
+//    return studentGrade ;
+//}
+
+//console.log("เกรดคือ : ", calculater_grad(grade))
